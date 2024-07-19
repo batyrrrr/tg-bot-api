@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log(process.env);
 
 const { handleMessage, sendMessage } = require('./lib/telegram')
 const { errorHandler } = require("./lib/helper");
