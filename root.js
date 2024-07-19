@@ -23,3 +23,19 @@ app.listen(PORT, function (err) {
 
 
 module.exports = app
+
+
+//   "version": 2,
+//   "builds": [
+//     {
+//       "src": "./index.js",
+//       "use": "@vercel/node"
+//     }
+//   ],
+//   "routes": [
+//     {
+//       "src": "/(.*)",
+//       "dest": "/"
+//     }
+//   ]
+// 
